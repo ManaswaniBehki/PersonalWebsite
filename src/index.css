@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&&display=swap');
+
+:root{
+    --pink-theme-background-color: rgb(0, 0, 0);
+    --pink-theme-main-color:rgb(223, 172, 208);
+    --pink-theme-sub-text-color: white;
+    --pink-theme-nav-background-color:rgba(73, 63, 63, 0.284);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 62%;
+    height: 100%;
+}
+body{
+    background: var(--pink-theme-background-color);
+    height: 100%;
+}
+#root{
+    height: 100%;
+}
